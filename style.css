@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,500;1,700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background: url("https://images.unsplash.com/photo-1599283415392-c1ad8110a147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+nav h1{
+	padding: 20px;
+	font-size: 3rem;
+	font-family: Ubuntu, san-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+h3{
+	text-align: center;
+	font-family: ubuntu;
+	padding: 30px;
+	color: green;
+	font-size: 1.3em;
+}
+
+#map{
+	background: red;
+	background: url("https://elearnings.setecu.com/pluginfile.php/202467/mod_label/intro/Cambodia%20Map.png");
+	height: 150vh;
+	width: 100%;
+	background-size: cover;
+}
+
+footer{
+	background: #222;
+}
+
+footer p {
+	color: greenyellow;
+	padding: 40px 0;
+	text-align: center;
+}
