@@ -30,14 +30,6 @@ h3{
 	font-size: 1.3em;
 }
 
-#map{
-	background: red;
-	background: url("https://elearnings.setecu.com/pluginfile.php/202467/mod_label/intro/Cambodia%20Map.png");
-	height: 150vh;
-	width: 100%;
-	background-size: cover;
-}
-
 footer{
 	background: #222;
 }
@@ -46,4 +38,8 @@ footer p {
 	color: greenyellow;
 	padding: 40px 0;
 	text-align: center;
+}
+
+img {
+	
 }
