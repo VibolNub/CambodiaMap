@@ -5,41 +5,49 @@
 	box-sizing: border-box;
 }
 
-nav{
-	background: url("https://images.unsplash.com/photo-1599283415392-c1ad8110a147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80");
+body{
+	font-family: ubuntu,san-serif;
+	background: #FFF0C7;
+}
+
+header{
+	background: url('https://unsplash.it/3000');
 	background-size: cover;
 	background-position: center;
-	color: white;
-	text-align: center;
-}
-nav h1{
 	padding: 20px;
+	text-align: center;
+	font-weight: bold;
 	font-size: 3rem;
-	font-family: Ubuntu, san-serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-style: italic;
+	border-bottom: white 3px solid;
+	color: white;
+	transition: .5s;
+	cursor: pointer;
 }
-
-
-h3{
-	text-align: center;
-	font-family: ubuntu;
-	padding: 30px;
-	color: green;
-	font-size: 1.3em;
-}
-
-footer{
-	background: #222;
-}
-
-footer p {
-	color: greenyellow;
-	padding: 40px 0;
-	text-align: center;
-}
-
-img {
+header:hover{
+	color: #fff0c7;
 	
+}
+
+.top{
+	display: flex;
+}
+.left-p{
+	width: 21%;
+	padding: 5px;
+	font-size: 1.2rem;
+	display: block
+}
+
+#CTA{
+	background: white;
+	display: block;
+	color: blue;
+	font-size: 1.5rem;
+}
+footer{
+	background: green;
+	padding: 40px;
+}
+footer p{
+	color: white;
 }
