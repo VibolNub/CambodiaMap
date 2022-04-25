@@ -7,7 +7,56 @@
 
 body{
 	font-family: ubuntu,san-serif;
-	background: #FFF0C7;
 }
 
+.head{
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 10px;
+	text-align: center;
+	background: linear-gradient(to right, purple,blue);
+}
 
+ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+}
+ul li{
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	position: relative;
+	color: green;
+}
+li a:hover{
+	color: grey;
+	
+}
+li a::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px;
+	background: black;
+	transition: .5s;
+}
+li a:hover::after{
+	width: 100%;
+}
+
+#pic1{
+	float: left;
+	width: 70%;
+	padding-right: 10px;
+}
+
+footer{
+	background: green;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
