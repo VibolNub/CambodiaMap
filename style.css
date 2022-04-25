@@ -5,49 +5,39 @@
 	box-sizing: border-box;
 }
 
-body{
-	font-family: ubuntu,san-serif;
-	background: #FFF0C7;
-}
-
 header{
-	background: url('https://unsplash.it/3000');
-	background-size: cover;
-	background-position: center;
+	background: linear-gradient(to bottom right,#24FE41,#FDFC47);
 	padding: 20px;
 	text-align: center;
-	font-weight: bold;
-	font-size: 3rem;
-	border-bottom: white 3px solid;
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2rem;
 	color: white;
-	transition: .5s;
-	cursor: pointer;
-}
-header:hover{
-	color: #fff0c7;
-	
 }
 
-.top{
-	display: flex;
-}
-.left-p{
-	width: 21%;
-	padding: 5px;
-	font-size: 1.2rem;
-	display: block
+.img-container{
+	text-align: center;
 }
 
-#CTA{
-	background: white;
-	display: block;
-	color: blue;
-	font-size: 1.5rem;
+.txt-p{
+	font-family: ubuntu;
+	padding: 0 20px;
 }
+
 footer{
-	background: green;
-	padding: 40px;
+	background: lime;
+	text-align: center;
 }
+
 footer p{
+	padding: 30px;
 	color: white;
+	font-size: 1.3rem;
+	font-family: ubuntu;
+}
+
+.cta{
+	text-align: center;
+	color: green;
 }
