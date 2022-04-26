@@ -15,7 +15,7 @@ body{
 	font-weight: 700;
 	padding: 10px;
 	text-align: center;
-	background: linear-gradient(to right, purple,blue);
+	background: linear-gradient(to right, green,lime);
 }
 
 ul{
@@ -55,7 +55,7 @@ li a:hover::after{
 }
 
 footer{
-	background: green;
+	background: linear-gradient(to bottom right, lime, green);
 	color: white;
 	padding: 30px;
 	text-align: center;
